@@ -19,7 +19,7 @@ var chosed = localStorage;
 		}
 	});
 
-function checkFire() 
+function checkFire()
 {
 	if (window.location.href.indexOf("gen1")>-1) // If the type is Fire and from Gen 1, then the starter is Charmander
 	{
@@ -29,6 +29,7 @@ function checkFire()
 	else if (window.location.href.indexOf("gen2")>-1)
 	{
 		localStorage.setItem("gifPokemon", 'media/gifs/cyndaquil_gif.gif');
+	}
 
 	else if (window.location.href.indexOf("gen3")>-1)
 	{
@@ -53,7 +54,7 @@ function checkFire()
 
 function checkWater()
 {
-	if (window.location.href.indexOf("gen1")>-1) // If the type is Water and from Gen 1, then the starter is Squirtle
+	if (window.location.href.indexOf("gen1")>-1) // If the type is Water and from Gen 1, then the starter is Squirtles
 	{
 		localStorage.setItem("gifPokemon", 'media/gifs/squirtle_gif.gif'); // Passing the "src" for the Squirtle gif
 	}
@@ -119,5 +120,5 @@ function checkGrass()
 
 function loadGif()
 {
-	$("#pokeGif").attr("src", localStorage.getItem("gifPokemon")); // The function that loads the gif in end.html
+	$("#pokeGif").attr("src", localStorage.getItem("gifPokemon"));
 }
