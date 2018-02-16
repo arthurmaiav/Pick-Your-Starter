@@ -1,0 +1,67 @@
+body {
+	background-image: url(../media/background/bg.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+#container {
+	margin: 0 auto;
+	padding: 0;
+	width: 900px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#menu {
+	float: left;
+	width: 250px;
+}
+
+#menu img {
+	width: 70%;
+	margin: 0px 65px;
+}
+
+#jumbo h1 {
+	text-align: center;
+	font-family: 'Cousine', monospace;
+	color: yellow;
+	text-transform: uppercase;
+}
+
+.jumbotron p {
+	text-align: center;
+	font-family: 'Cousine', monospace;
+	letter-spacing: -1px;
+	color: #CCCC00;
+}
+
+#jumbo {
+	margin: 20px 0px 100px 0px;
+	background: rgba(21, 36, 69, 0.6);
+	padding: 30px 0px;
+}
+
+.starters img {
+	width: 250px;
+	padding-top: 75px;
+}
+
+.starters {
+	background: rgba(21, 36, 69, 0.5);
+}
+
+.col-lg-4 div {
+	width: 250px;
+	height: 250px;
+}
+
+#pokeGif {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

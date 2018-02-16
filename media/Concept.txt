@@ -1,0 +1,6 @@
+Menu: You choose the generation
+
+Starters Screen: You see your options for starter
+- By hovering the starters: You see their details
+
+End Screen: You did it! Good luck on your journey.
