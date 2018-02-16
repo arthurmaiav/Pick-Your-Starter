@@ -1,4 +1,5 @@
 var starters = $(".starters")
+var chosed = localStorage;
 
 	$(".starters").on("click", function() // Checking the type of the clicked Pokémon
 	{
