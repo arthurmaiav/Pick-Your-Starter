@@ -1,8 +1,5 @@
-body {
-	background-image: url(../media/background/bg.png);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center;
+body{
+	background-color: #AAACB0 !important;
 }
 
 #container {
@@ -21,8 +18,8 @@ ul {
 }
 
 #menu img {
-	width: 70%;
-	margin: 0px 65px;
+	width: 60%;
+	margin: 20px 65px;
 }
 
 #jumbo h1 {
@@ -40,8 +37,8 @@ ul {
 }
 
 #jumbo {
-	margin: 20px 0px 100px 0px;
-	background: rgba(21, 36, 69, 0.6);
+	margin: 20px 0px 50px 0px;
+	background: rgba(21, 36, 69, 0.8);
 	padding: 30px 0px;
 }
 
@@ -57,6 +54,7 @@ ul {
 .col-lg-4 div {
 	width: 250px;
 	height: 250px;
+	margin: 50px auto 0px auto;
 }
 
 #pokeGif {
