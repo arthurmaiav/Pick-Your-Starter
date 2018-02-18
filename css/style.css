@@ -2,10 +2,8 @@ body{
 	background-color: #AAACB0 !important;
 }
 
-#container {
-	margin: 0 auto;
-	padding: 0;
-	width: 900px;
+.container {
+	padding: 0px !important;
 }
 
 ul {
@@ -37,9 +35,10 @@ ul {
 }
 
 #jumbo {
-	margin: 20px 0px 50px 0px;
+	margin: 0px 0px 50px 0px;
 	background: rgba(21, 36, 69, 0.8);
-	padding: 30px 0px;
+	padding: 50px 0px;
+	width: 100%;
 }
 
 .starters img {
@@ -58,8 +57,10 @@ ul {
 }
 
 #pokeGif {
-	width: 400px;
+	max-width: 100%;
+	min-width: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	padding: 0px;
 }
